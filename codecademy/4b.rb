@@ -1,15 +1,19 @@
-puts "Please type a sentence:"
+puts "Please type a string"
 text = gets.chomp
 
-puts "Type a word to redact:"
-redact = gets.chomp
+words = text.split
 
-words = text.split(" ")
+frequencies = Hash.new(0)
+
 words.each do |word|
-  if word == redact
-    print "REDACTED "
-  else
-    print word + " "
-  end
+  frequencies[word] += 1
 end
-  
+
+frequencies = frequencies.sort_by do |word, count|
+  count
+end
+frequencies.reverse!
+
+frequencies.each do |name, count|
+  puts name + " " + count.to_s
+end

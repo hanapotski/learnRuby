@@ -1,1 +1,3 @@
-pets = Hash.new
+def add (x, y)
+  return x + y
+end

@@ -1,3 +1,1 @@
-for num in 1...10
-  puts num
-end
+my_2d_array = [["Hannah", 27, 1989], ["Boy", 30, 1986]]

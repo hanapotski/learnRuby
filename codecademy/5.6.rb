@@ -1,8 +1,5 @@
-my_hash = { "name" => "Eric",
-  "age" => 26,
-  "hungry?" => true
-}
+def what_up(greeting, *friends)
+  friends.each { |friend| puts "#{greeting}, #{friend}!" }
+end
 
-puts my_hash["name"]
-puts my_hash["age"]
-puts my_hash["hungry?"]
+what_up("What up", "Ian", "Zoe", "Zenas", "Eleanor")

@@ -1,12 +1,10 @@
-friends = ["Milhouse", "Ralph", "Nelson", "Otto"]
+# method that capitalizes a word
+def capitalize(string)
+  puts "#{string[0].upcase}#{string[1..-1]}"
+end
 
-family = { "Homer" => "dad",
-  "Marge" => "mom",
-  "Lisa" => "sister",
-  "Maggie" => "sister",
-  "Abe" => "grandpa",
-  "Santa's Little Helper" => "dog"
-}
+capitalize("ryan") # prints "Ryan"
+capitalize("jane") # prints "Jane"
 
-friends.each { |x| puts "#{x}" }
-family.each { |x, y| puts "#{x}: #{y}" }
+# block that capitalizes each string in the array
+["ryan", "jane"].each {|string| puts "#{string[0].upcase}#{string[1..-1]}"} # prints "Ryan", then "Jane"

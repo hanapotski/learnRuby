@@ -1,4 +1,5 @@
-pets = Hash.new
-pets["Cola"] = "dog"
+1.times do
+  puts "I'm a code block!"
+end
 
-puts pets["Cola"]
+1.times { puts "As am I!" }

@@ -1,3 +1,5 @@
-multi_d_array = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+def array_of_10
+  puts (1..10).to_a
+end
 
-multi_d_array.each { |x| puts "#{x}\n" }
+array_of_10

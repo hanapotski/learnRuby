@@ -1,1 +1,5 @@
-my_2d_array = [["Hannah", 27, 1989], ["Boy", 30, 1986]]
+def cubertino(n)
+  puts n ** 3
+end
+
+cubertino(8)

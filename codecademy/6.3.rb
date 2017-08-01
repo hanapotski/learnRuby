@@ -1,11 +1,9 @@
-# Define your method below!
-def greeting
-  puts "How are you today?"
-end
+creatures = { "weasels" => 0,
+  "puppies" => 6,
+  "platypuses" => 3,
+  "canaries" => 1,
+  "Heffalumps" => 7,
+  "Tiggers" => 1
+}
 
-
-
-# Define your method above this line.
-
-greeting # Ignore this for now. We'll explain
-         # it in the next exercise!
+creatures['cute']

@@ -1,5 +1,4 @@
-i = 1
-until i == 51
-  print i
-  i += 1
-end
+my_hash = {
+  "laptop" => "macbook",
+  "cellphone" => "note4"
+  }

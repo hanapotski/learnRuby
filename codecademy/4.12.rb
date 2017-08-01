@@ -1,6 +1,5 @@
-odds = [1,3,5,7,9]
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
 
-# Add your code below!
-odds.each do |number|
-  print number * 2
-end
+sub_array = s.each
+
+sub_array.each {|element| puts element}

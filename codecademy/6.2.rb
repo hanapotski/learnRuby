@@ -1,5 +1,10 @@
-def puts_1_to_10
-  (1..10).each { |i| puts i }
-end
+matz = { "First name" => "Yukihiro",
+  "Last name" => "Matsumoto",
+  "Age" => 47,
+  "Nationality" => "Japanese",
+  "Nickname" => "Matz"
+}
 
-puts_1_to_10 # Ignore this for now. We'll explain it soon!
+matz.each do |key, value|
+  puts value
+end

@@ -1,3 +1,5 @@
-demo_array = [100, 200, 300, 400, 500]
+def puts_1_to_10
+  (1..10).each { |i| puts i }
+end
 
-print  demo_array[2]
+puts_1_to_10 # Ignore this for now. We'll explain it soon!

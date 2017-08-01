@@ -1,5 +1,7 @@
-s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+my_array = [3, 4, 8, 7, 1, 6, 5, 9, 2]
 
-sub_array = s.each
+# Call the sort! method on my_array below.
+# my_array should then equal [1, 2, 3, 4, 5, 6, 7, 8, 9].
 
-sub_array.each {|element| puts element}
+my_array.sort!
+puts my_array

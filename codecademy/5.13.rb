@@ -1,10 +1,6 @@
-secret_identities = {
-  "The Batman" => "Bruce Wayne",
-  "Superman" => "Clark Kent",
-  "Wonder Woman" => "Diana Prince",
-  "Freakazoid" => "Dexter Douglas"
-}
+# library sorting code
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
 
-secret_identities.each do |hero, name|
-  puts "#{hero}: #{name}"
-end
+# How might we sort! the books in alphabetical order? (Hint, hint)
+
+books.sort!

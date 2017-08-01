@@ -1,3 +1,2 @@
-def add (x, y)
-  return x + y
-end
+# Write your code below!
+my_first_symbol = :heart
